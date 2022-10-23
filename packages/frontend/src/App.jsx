@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import SideBar from "./components/SideBar";
 
 function App() {
   return (
@@ -6,7 +7,9 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <main></main>
+      <main>
+        <SideBar />
+      </main>
     </div>
   );
 }

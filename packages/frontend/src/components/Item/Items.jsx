@@ -53,7 +53,7 @@ const Items = ({ categoryId }) => {
                             title={item.title}
                             price={item.price / 10 ** 18}
                             description={item.description}
-                            location="Magdeburg, Deutschland"
+                            location={item.location}
                             image={item.images[0]}
                         />
                     ))}
